@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muestras de contenido SEO</title>
+<meta name="description" content="Ejemplos de artículos SEO optimizados para búsqueda local: contenido de criterio, útil y listo para publicar.">
+<style>
+  :root {
+    --texto: #23201c;
+    --tenue: #6b655c;
+    --fondo: #fdfcf9;
+    --acento: #3a5a55;
+    --linea: #e5e0d6;
+    --tarjeta: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--fondo);
+    color: var(--texto);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 19px;
+    line-height: 1.75;
+  }
+  .envoltura {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 5rem;
+  }
+  h1 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 2.1rem;
+    line-height: 1.2;
+    margin: 0 0 0.6rem;
+    letter-spacing: -0.01em;
+  }
+  .subtitulo {
+    color: var(--tenue);
+    font-size: 1.05rem;
+    margin: 0 0 3rem;
+  }
+  .lista { list-style: none; margin: 0; padding: 0; }
+  .tarjeta {
+    display: block;
+    background: var(--tarjeta);
+    border: 1px solid var(--linea);
+    border-radius: 10px;
+    padding: 1.5rem 1.6rem;
+    margin-bottom: 1.2rem;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  .tarjeta:hover {
+    border-color: var(--acento);
+    transform: translateY(-2px);
+  }
+  .tarjeta h2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    margin: 0 0 0.4rem;
+    color: var(--acento);
+  }
+  .tarjeta p { margin: 0; color: var(--tenue); font-size: 0.98rem; }
+  .proximo {
+    border-style: dashed;
+    background: transparent;
+    color: var(--tenue);
+    cursor: default;
+  }
+  .proximo:hover { transform: none; border-color: var(--linea); }
+  .proximo h2 { color: var(--tenue); }
+  .etiqueta {
+    display: inline-block;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--tenue);
+    border: 1px solid var(--linea);
+    border-radius: 999px;
+    padding: 0.15rem 0.6rem;
+    margin-bottom: 0.6rem;
+  }
+  @media (max-width: 600px) {
+    body { font-size: 18px; }
+    .envoltura { padding: 2.5rem 1.25rem 3.5rem; }
+    h1 { font-size: 1.7rem; }
+  }
+</style>
+</head>
+<body>
+<main class="envoltura">
+
+  <h1>Muestras de contenido SEO</h1>
+  <p class="subtitulo">Ejemplos de artículos optimizados para búsqueda local: contenido de criterio, escrito para personas y listo para publicar.</p>
+
+  <ul class="lista">
+
+    <!-- MUESTRA PUBLICADA -->
+    <li>
+      <a class="tarjeta" href="implantes-dentales-madrid.html">
+        <span class="etiqueta">Clínica dental &middot; Madrid</span>
+        <h2>Implantes dentales en Madrid: cómo elegir clínica con criterio</h2>
+        <p>Guía de orientación para elegir clínica: qué preguntar, cómo comparar tratamientos y presupuestos.</p>
+      </a>
+    </li>
+
+    <!--
+      PARA AÑADIR UNA MUESTRA NUEVA:
+      copia el bloque <li>...</li> de arriba, cambia el href al nuevo
+      archivo .html, la etiqueta (sector · ciudad), el título y la descripción.
+      Borra los dos bloques "próximamente" de abajo a medida que los publiques.
+    -->
+
+    <!-- PRÓXIMAMENTE 1 -->
+    <li>
+      <span class="tarjeta proximo">
+        <span class="etiqueta">Próximamente</span>
+        <h2>Segunda muestra en camino</h2>
+        <p>Nuevo artículo de ejemplo esta semana.</p>
+      </span>
+    </li>
+
+    <!-- PRÓXIMAMENTE 2 -->
+    <li>
+      <span class="tarjeta proximo">
+        <span class="etiqueta">Próximamente</span>
+        <h2>Tercera muestra en camino</h2>
+        <p>Nuevo artículo de ejemplo esta semana.</p>
+      </span>
+    </li>
+
+  </ul>
+
+</main>
+</body>
+</html>
